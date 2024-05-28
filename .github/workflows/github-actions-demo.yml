@@ -8,6 +8,9 @@ on:
       - main
     paths-ignore:
       - ".github/**"
+  pull_request:
+    branches:
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
